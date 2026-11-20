@@ -41,3 +41,5 @@ Adaptador de Ethernet vEthernet (WSL (Hyper-V firewall)):
    M scara de subred . . . . . . . . . . . . : 255.255.240.0
    Puerta de enlace predeterminada . . . . . : 
 Fri Nov  6 12:12:25     2026
+
+Thomas Rolon
