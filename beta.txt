@@ -43,3 +43,58 @@ Adaptador de Ethernet vEthernet (WSL (Hyper-V firewall)):
 Fri Nov  6 12:12:25     2026
 
 Thomas Rolon
+
+Configuraci¢n IP de Windows
+
+
+Adaptador de Ethernet Radmin VPN:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   Direcci¢n IPv6 . . . . . . . . . . : fdfd::1a0e:177f
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::3d0f:4b6a:c361:80bf%7
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 26.14.23.127
+   M scara de subred . . . . . . . . . . . . : 255.0.0.0
+   Puerta de enlace predeterminada . . . . . : 26.0.0.1
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::5381:8ff9:9d82:78b7%6
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
+
+Adaptador de LAN inal mbrica Conexi¢n de  rea local* 1:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de LAN inal mbrica Conexi¢n de  rea local* 2:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de LAN inal mbrica Wi-Fi:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : Home
+   Direcci¢n IPv6 . . . . . . . . . . : fd42:8a19:3c7e:0012:9f4b:2d81:6e05:a731
+   Direcci¢n IPv6 temporal. . . . . . : 2802:8010:2332:8c00:e048:d346:b415:a506
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::a04c:5d1:c9bc:f973%13:d19a
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.167.1.47
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : fe80::463b:14ff:fe2e:c0d0%13
+                                       192.168.1.1
+
+Adaptador de Ethernet Conexi¢n de red Bluetooth:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de t£nel Teredo Tunneling Pseudo-Interface:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   Direcci¢n IPv6 . . . . . . . . . . : 2000:0:15c9:cd06:10b9:21b5:40aa:c6ea
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::10b9:21b5:40aa:c6ea%15
+   Puerta de enlace predeterminada . . . . . : 
+
+11:55:45
