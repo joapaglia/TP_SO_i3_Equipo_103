@@ -1,0 +1,12 @@
+a-¿Cómo queda el máster después de estos cambios?
+Queda completo y unificado con el trabajo de los tres: incluye el README.md, datos.txt con los datos de todos, los tres archivos de CPU (CPUGamma.txt, CPUAlfa.txt y CPUBeta.txt) del primer merge, y el archivo beta.txt con la información de red (ipconfig), nombres y horarios de BETA, GAMMA y ALFA tras el segundo merge.
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Sí, pudo ver todos los cambios al traer las modificaciones remotas con git fetch y git pull antes de realizar cada merge hacia master.
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+git fetch origin
+git checkout master
+git pull origin master
+git merge Rolon
+git push origin master
