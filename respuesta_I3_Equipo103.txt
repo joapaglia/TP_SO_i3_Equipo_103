@@ -27,3 +27,17 @@ date "+%H:%M:%S" >> beta.txt
 git add beta.txt
 git commit -m "añadi ipconfig y la hora"
 git push origin Pagliaroli
+
+
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+git fetch origin
+git checkout Pagliaroli
+git pull origin Pagliaroli
+echo "Ciro Thames" >> beta.txt
+git add beta.txt
+git commit -m "Agregué mis datos"
+ipconfig >> beta.txt
+date "+%H:%M:%S" >> beta.txt
+git add beta.txt
+git commit -m "Agregué el día y la hora"
+git push origin Pagliaroli
