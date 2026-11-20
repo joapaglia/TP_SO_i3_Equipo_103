@@ -10,3 +10,20 @@ git checkout master
 git pull origin master
 git merge Rolon
 git push origin master
+
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+No, quedan desactualizadas respecto a master. La rama de GAMMA quedó sin beta.txt ni los commits posteriores, y la rama Pagliaroli no incorpora las modificaciones finales que se hagan directamente en master.
+
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+Mi problema con el merge fue que al hacerlo tenía mi rama local desactualizada respecto a main porque no había ejecutado git pull antes, lo que provocó diferencias entre versiones y me obligó a traer primero los últimos cambios del remoto antes de poder completar la fusión correctamente.
+
+f-git fetch origin
+git checkout Pagliaroli
+git pull origin Pagliaroli
+echo "Thomas Rolon" >> beta.txt
+git commit -m "Añadi mi nombre y apellido"
+ipconfig >> beta.txt
+date "+%H:%M:%S" >> beta.txt
+git add beta.txt
+git commit -m "añadi ipconfig y la hora"
+git push origin Pagliaroli
